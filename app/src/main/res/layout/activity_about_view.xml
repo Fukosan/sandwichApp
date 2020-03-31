@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutView">
+
+    <ImageView
+        android:id="@+id/logoEmpresa"
+        android:layout_width="300dp"
+        android:layout_height="335dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/nombreEmpresa"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/logo_foreground" />
+
+    <TextView
+        android:id="@+id/descripcionEmpresa"
+        android:layout_width="300dp"
+        android:layout_height="267dp"
+        android:layout_alignBottom="@id/logoEmpresa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-231dp"
+        android:gravity="center"
+        android:text="@string/aboutViewDescripcion"
+        android:textSize="20sp" />
+
+</RelativeLayout>

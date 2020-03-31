@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalleSandwich">
+
+    <TextView
+        android:id="@+id/precioSandwich"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/barros_jarpaPrecio"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/descripcionSandwich"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/descripcionSandwich"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionSandwich" />
+
+    <ImageView
+        android:id="@+id/imagenSandwich"
+        android:layout_width="293dp"
+        android:layout_height="236dp"
+        android:contentDescription="@string/aboutViewDescripcion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_background" />
+
+    <TextView
+        android:id="@+id/tituloSandwich"
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="@string/barros_jarpaNombre"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/descripcionSandwich"
+        android:layout_width="326dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/barros_jarpaDescripcion"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tituloSandwich"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/tituloSandwich"
+        app:layout_constraintTop_toBottomOf="@+id/tituloSandwich" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

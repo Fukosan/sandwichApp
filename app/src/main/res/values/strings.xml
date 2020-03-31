@@ -1,0 +1,51 @@
+<resources>
+    <!--GENERAL-->
+    <string name="app_name">sandwichApp</string>
+    <string name="nombreEmpresa">Sandwich House</string>
+    <string name="botonAbout">Sobre Nosotros</string>
+    <string name="botonSandwich">Sandwiches</string>
+
+    <!--VIEW: aboutView-->
+
+    <string name="aboutViewDescripcion">Somos una empresa de más de 10 años de experiencia en el área de elaboración y venta de sandwiches dentro de la región del Bío Bío. Venga a comprar los mejores sandwiches de la región!</string>
+
+
+    <!--VIEW: sandwichView-->
+
+    <string name="cantidadSandwiches">5</string>
+
+    <!-- Sandwich Italiano -->
+
+    <string name="italianoNombre">Italiano</string>
+    <string name="italianoIdPic">italiano</string>
+    <string name="italianoDescripcion">Sandwich con tomate, palta, mayonesa y carne a elección (Mechada, churrasco o lomito)</string>
+    <string name="italianoPrecio">2500</string>
+
+    <!-- Sandwich Barros Luco -->
+
+    <string name="barros_lucoNombre">Barros Luco</string>
+    <string name="barros_lucoIdPic">barros_luco</string>
+    <string name="barros_lucoDescripcion">Sandwich con queso y carne a elección (Mechada, churrasco o lomito)</string>
+    <string name="barros_lucoPrecio">2000</string>
+
+    <!-- Sandwich Barros Jarpa-->
+
+    <string name="barros_jarpaNombre">Barros Jarpa</string>
+    <string name="barros_jarpaIdPic">barros_jarpa</string>
+    <string name="barros_jarpaDescripcion">Sandwich con queso derretido y jamón</string>
+    <string name="barros_jarpaPrecio">1000</string>
+
+    <!-- Sandwich Chemilico -->
+
+    <string name="chemilicoNombre">Chemilico</string>
+    <string name="chemilicoIdPic">chemilico</string>
+    <string name="chemilicoDescripcion">Sandwich con huevo frito, cebolla frita y carne a elección (Mechada, churrasco o lomito)</string>
+    <string name="chemilicoPrecio">2300</string>
+
+    <!-- Sandwich Chacarero -->
+
+    <string name="chacareroNombre">Chacarero</string>
+    <string name="chacareroIdPic">chacarero</string>
+    <string name="chacareroDescripcion">Sandwich con ají verde, porotos verdes, tomate y carne a elección (Mechada, churrasco o lomito)</string>
+    <string name="chacareroPrecio">2700</string>
+</resources>
